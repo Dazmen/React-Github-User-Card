@@ -42,7 +42,7 @@ class App extends React.Component {
         </header>
         <div>
           <UserCard myGithub={this.state.myGithub}/>
-          {/* <FollowerList myFollowers={this.state.myFollowers}/> */}
+          <FollowerList myFollowers={this.state.myFollowers}/>
         </div>
       </div>
     );
